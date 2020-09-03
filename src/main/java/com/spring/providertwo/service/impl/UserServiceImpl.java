@@ -72,7 +72,7 @@ public class UserServiceImpl implements IUserService {
             System.out.println("数据库空值查询。。。。。。");
             return userList;
         }
-        //将查询的结果(非空)放入缓存中,并且设置失效时间 单位：s 30分钟
+        //数据库查询非空时，将查询的结果(非空)放入缓存中,并且设置失效时间 单位：s 30分钟
         redisUtil.listSetWithTime("USER:ALL:ID:NAME", userList, 30 * 60);
         System.out.println("数据库非空值查询。。。。。。");
 
