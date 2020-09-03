@@ -1,0 +1,37 @@
+12:32:34.269 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+12:32:34.281 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+12:32:51.748 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596342771748, current=DOWN, previous=UP]
+12:48:14.686 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+12:48:14.697 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+13:21:25.685 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m2s239ms).
+13:52:41.508 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m15s824ms).
+13:53:11.068 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s559ms), soft-evicting connections from pool.
+15:11:12.210 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m1s143ms).
+16:04:59.681 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m17s467ms).
+16:31:36.028 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596357096028, current=DOWN, previous=UP]
+16:32:05.228 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+16:32:05.305 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+16:35:41.201 [http-nio-8003-exec-3] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+16:35:41.203 [http-nio-8003-exec-3] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+16:56:23.656 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596358583654, current=DOWN, previous=UP]
+16:56:37.793 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+16:56:37.806 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+16:57:39.197 [http-nio-8003-exec-1] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+16:57:39.199 [http-nio-8003-exec-1] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+16:57:51.603 [http-nio-8003-exec-5] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+16:57:51.604 [http-nio-8003-exec-5] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+16:59:17.818 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596358757818, current=DOWN, previous=UP]
+16:59:34.690 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+16:59:34.704 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+17:00:53.222 [http-nio-8003-exec-2] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+17:00:53.223 [http-nio-8003-exec-2] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+17:01:17.661 [http-nio-8003-exec-3] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+17:01:17.664 [http-nio-8003-exec-3] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+17:01:19.588 [http-nio-8003-exec-4] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+17:01:19.588 [http-nio-8003-exec-4] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+17:01:27.359 [http-nio-8003-exec-5] ERROR com.spring.providertwo.controller.UserController - ERROR 级别日志
+17:01:27.360 [http-nio-8003-exec-5] WARN  com.spring.providertwo.controller.UserController - WARN 级别日志
+17:11:10.245 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596359470245, current=DOWN, previous=UP]
+17:11:24.517 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+17:11:24.528 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+17:18:28.724 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596359908724, current=DOWN, previous=UP]

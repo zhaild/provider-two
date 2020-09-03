@@ -1,0 +1,1 @@
+09:11:13.600 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1599009073600, current=DOWN, previous=UP]

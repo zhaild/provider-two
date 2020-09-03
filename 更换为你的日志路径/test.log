@@ -1,0 +1,36 @@
+17:11:19.617 [restartedMain] INFO  com.spring.providertwo.ProviderTwoApplication - No active profile set, falling back to default profiles: default
+17:11:23.878 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+17:11:23.879 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:11:23.879 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+17:11:24.039 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:11:24.517 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+17:11:24.518 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:11:24.528 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+17:11:24.528 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:11:25.843 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+17:11:26.145 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+17:11:26.145 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+17:11:26.395 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+17:11:26.396 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+17:11:26.763 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+17:11:26.794 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+17:11:26.795 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+17:11:26.795 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+17:11:26.795 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+17:11:26.795 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+17:11:26.796 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+17:11:26.796 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+17:11:27.168 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+17:11:27.174 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+17:11:27.178 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+17:11:27.187 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1596359487184 with initial instances count: 6
+17:11:27.191 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596359487191, current=UP, previous=STARTING]
+17:11:27.194 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER-USER/zhaildvaezld.lan:provider-user:8003: registering service...
+17:11:27.206 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+17:11:27.247 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER-USER/zhaildvaezld.lan:provider-user:8003 - registration status: 204
+17:11:27.282 [restartedMain] INFO  com.spring.providertwo.ProviderTwoApplication - Started ProviderTwoApplication in 11.06 seconds (JVM running for 13.759)
+17:16:26.812 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+17:18:28.724 [SpringContextShutdownHook] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596359908724, current=DOWN, previous=UP]
+17:18:28.726 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER-USER/zhaildvaezld.lan:provider-user:8003: registering service...
+17:18:28.744 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER-USER/zhaildvaezld.lan:provider-user:8003 - registration status: 204
+17:18:28.816 [SpringContextShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
